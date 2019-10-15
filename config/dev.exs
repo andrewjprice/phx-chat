@@ -61,7 +61,8 @@ config :phx_chat, PhxChatWeb.Endpoint,
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
       ~r"lib/phx_chat_web/{live,views}/.*(ex)$",
-      ~r"lib/phx_chat_web/templates/.*(eex)$"
+      ~r"lib/phx_chat_web/templates/.*(eex)$",
+      ~r{lib/phx_chat_web/live/.*(ex)$}
     ]
   ]
 
